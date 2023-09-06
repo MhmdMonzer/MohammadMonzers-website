@@ -1,0 +1,617 @@
+@media (max-width: 1600px) {
+    /* Page Head Styles */
+    .page-head h1 {
+        font-size: 3vw;
+    }
+
+    .page-head p {
+        font-size: 1.5vw;
+    }
+
+    .page-head img {
+        width: 100%;
+    }
+
+    .page-head {
+        grid-template-columns: 1fr 0.75fr;
+    }
+
+    /* About Me Section Styles */
+    .aboutme-body {
+        grid-template-columns: 0.65fr 1fr;
+    }
+
+    .aboutme-img img {
+        width: 100%;
+    }
+
+    .aboutme-text h2 {
+        font-size: 3.5vw;
+    }
+
+    .aboutme-text p {
+        font-size: 1.7vw;
+    }
+
+    /* Knowledge Section Styles */
+    .knowledge h2 {
+        font-size: 2.7vw;
+        border-radius: 1.5vw;
+    }
+
+    .knowledge-body {
+        border-radius: 1.5vw;
+    }
+
+    .knowledge-card {
+        border-radius: 1vw;
+    }
+
+    .knowledge-card h3 {
+        font-size: 2.5vw;
+    }
+
+    .knowledge-card li {
+        font-size: 1.5vw;
+    }
+
+    /* Hobbies Section Styles */
+    .title-nav h2 {
+        font-size: 4.2vw;
+    }
+
+    .title-nav li {
+        font-size: 2.2vw;
+    }
+
+    .hobbies-info h3 {
+        font-size: 2.6vw;
+    }
+
+    .hobbies-info p {
+        font-size: 1.5vw;
+    }
+
+    /* Programming Section Styles */
+    .programming h2 {
+        font-size: 3.2vw;
+    }
+
+    .programming-nav {
+        border-radius: 0.5vw;
+    }
+
+    .programming-nav span {
+        font-size: 1.65vw;
+    }
+
+    .programming-nav span:first-child {
+        border-top-left-radius: 0.35vw;
+        border-bottom-left-radius: 0.35vw;
+    }
+
+    .programming-nav span:last-child {
+        border-top-right-radius: 0.35vw;
+        border-bottom-right-radius: 0.35vw;
+    }
+
+    .programming-body {
+        width: 75%;
+    }
+
+    .programming-card {
+        border-radius: 1.5vw;
+    }
+
+    .programming-card span {
+        font-size: 4vw;
+    }
+
+    .programming-card p {
+        font-size: 1.8vw;
+    }
+
+    .achievements h2 {
+        font-size: 3vw;
+    }
+
+    .achievements-body h3 {
+        font-size: 2.4vw;
+    }
+
+    .achievements-body li {
+        font-size: 1.75vw;
+    }
+
+    /* Goals Section Styles */
+    .goals h2 {
+        font-size: 3.75vw;
+    }
+
+    .goals-card {
+        border-radius: 1.5vw;
+    }
+
+    .goals-card h3 {
+        font-size: 2.2vw;
+    }
+
+    .goals-card p {
+        font-size: 1.5vw;
+    }
+}
+
+@media (max-width: 1330px) {
+    .footer-text h2 {
+        font-size: 4.5vw;
+    }
+
+    .footer-text p {
+        font-size: 1.5vw;
+    }
+
+    .foot-elements h3 {
+        font-size: 2vw;
+    }
+
+    .foot-elements a {
+        font-size: 1.5vw;
+    }
+
+    .page-foot {
+        width: 85%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .nav-element p {
+        font-size: 1.6vw;
+    }
+}
+
+@media (max-width: 930px) {
+    .nav-bar {
+        justify-content: space-evenly;
+        padding: 2vw;
+    }
+
+    .nav-element p {
+        font-size: 2vw;
+        text-align: center;
+    }
+
+    .page-head {
+        grid-template-columns: 1fr;
+        gap: 4vw;
+        width: 90%;
+    }
+
+    .page-head h1 {
+        font-size: 5.5vw;
+        text-align: center;
+    }
+
+    .page-head p {
+        text-align: center;
+        font-size: 2.5vw;
+    }
+
+    .page-head img {
+        width: 100%;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    .aboutme-body {
+        grid-template-columns: 1fr;
+        width: 90%;
+        gap: 4vw;
+    }
+
+    .aboutme-img {
+        border-bottom: 2px solid;
+        border-right: 0;
+    }
+
+    .aboutme-img img {
+        width: 100%;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+
+    .aboutme-text h2 {
+        font-size: 7vw;
+        text-align: center;
+    }
+
+    .aboutme-text p {
+        font-size: 2.5vw;
+        text-align: center;
+    }
+
+    .knowledge h2 {
+        font-size: 6vw;
+    }
+
+    .knowledge-body {
+        grid-template-columns: 1fr;
+        gap: 3vw;
+    }
+
+    .knowledge-card h3 {
+        font-size: 4vw;
+    }
+
+    .knowledge-card li {
+        font-size: 2.5vw;
+        padding: 1.5vw;
+    }
+
+    .hobbies-body {
+        grid-template-columns: 1fr;
+    }
+
+    .title-nav h2 {
+        font-size: 7vw;
+        padding: 2.2vw;
+    }
+
+    .title-nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 4vw;
+    }
+
+    .title-nav li {
+        font-size: 3vw;
+    }
+
+    .hobbies-info h3 {
+        font-size: 3.5vw;
+    }
+
+    .hobbies-info p {
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    .programming h2 {
+        font-size: 6vw;
+    }
+
+    .programming-nav span {
+        font-size: 2.8vw;
+        padding: 2vw 3vw;
+    }
+
+    .programming-body {
+        width: 85%;
+    }
+
+    .programming-card {
+        border-radius: 1.5vw;
+        padding: 4vw;
+    }
+
+    .programming-card span {
+        font-size: 7vw;
+    }
+
+    .programming-card p {
+        font-size: 2.5vw;
+    }
+
+    .achievements h2 {
+        font-size: 6vw;
+        padding: 4vw;
+    }
+
+     .achievements-body>ul {
+        width: 90%;
+    }
+
+    .achievements-body h3 {
+        font-size: 4vw;
+    }
+
+    .achievements-body li {
+        font-size: 2.5vw;
+        padding: 1.75vw;
+    }
+
+    .goals {
+        padding: 5vw 0;
+    }
+
+    .goals-body {
+        width: 90%;
+    }
+
+    .goals h2 {
+        font-size: 6vw;
+    }
+
+    .goals-card h3 {
+        font-size: 3vw;
+        padding: 1vw;
+    }
+
+    .goals-card p {
+        font-size: 2.5vw;
+        padding: 2vw;
+    }
+
+    .contact-body {
+        width: 100%;
+    }
+
+    .form-info h2 {
+        font-size: 6vw;
+        text-shadow: 0 0;
+    }
+
+    .edit-contact {
+        font-size: 1.8vw;
+    }
+
+    #submit {
+        font-size: 1.8vw;
+    }
+
+    .copyright,.language {
+        font-size: 1.5vw;
+    }
+}
+
+@media (max-width: 560px) {
+        .nav-bar {
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 2vw 4vw;
+        }
+    
+        .nav-element p {
+            font-size:4vw;
+            text-align: center;
+        }
+    
+        .page-head {
+            grid-template-columns: 1fr;
+            gap: 6vw;
+            width: 95%;
+        }
+    
+        .page-head h1 {
+            font-size: 8vw;
+            text-align: start;
+        }
+    
+        .page-head p {
+            text-align: start;
+            font-size: 4.5vw;
+        }
+    
+        .page-head img {
+            width: 100%;
+            border-top-right-radius: 0;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+    
+        .aboutme-body {
+            grid-template-columns: 1fr;
+            width: 90%;
+            gap: 4vw;
+        }
+    
+        .aboutme-img {
+            border-bottom: 2px solid;
+            border-right: 0;
+        }
+    
+        .aboutme-img img {
+            width: 100%;
+            border-bottom-left-radius: 0;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+        }
+    
+        .aboutme-text h2 {
+            font-size: 9vw;
+            padding-bottom: 5vw;
+            text-align: center;
+        }
+    
+        .aboutme-text p {
+            font-size: 4.5vw;
+            margin-top: 5vw;
+            text-align: start;
+        }
+    
+        .knowledge h2 {
+            font-size: 6vw;
+        }
+    
+        .knowledge-body {
+            grid-template-columns: 1fr;
+            gap: 3vw;
+        }
+    
+        .knowledge-card h3 {
+            font-size: 6vw;
+        }
+    
+        .knowledge-card li {
+            font-size: 4vw;
+            padding: 4vw;
+        }
+    
+        .hobbies-body {
+            grid-template-columns: 1fr;
+        }
+    
+        .title-nav h2 {
+            font-size: 10vw;
+            padding: 2.5vw;
+        }
+    
+        .title-nav ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 4vw;
+        }
+    
+        .title-nav li {
+            font-size: 4vw;
+        }
+    
+        .hobbies-info h3 {
+            font-size: 5vw;
+            padding-top: 4vw;
+        }
+    
+        .hobbies-info p {
+            font-size: 4vw;
+            text-align: start;
+            padding: 4vw;
+        }
+    
+        .programming h2 {
+            font-size: 10vw;
+        }
+    
+        .programming-nav span {
+            font-size: 3.33vw;
+            padding: 2vw 3vw;
+        }
+    
+        .programming-body {
+            width: 90%;
+        }
+    
+        .programming-card {
+            border-radius: 1.5vw;
+            padding: 4vw;
+        }
+    
+        .programming-card span {
+            font-size: 9vw;
+        }
+    
+        .programming-card p {
+            font-size: 3.5vw;
+        }
+    
+        .achievements h2 {
+            font-size: 9vw;
+            width: 100%;
+            padding-right: 8vw;
+        }
+    
+        .achievements-body>ul {
+            width: 90%;
+        }
+    
+        .achievements-body h3 {
+            font-size: 6vw;
+        }
+    
+        .achievements-body li {
+            font-size: 3.5vw;
+            padding: 2.5vw;
+        }
+    
+        .goals {
+            padding: 5vw 0;
+        }
+    
+        .goals-body {
+            width: 90%;
+            grid-template-columns: 1fr;
+        }
+    
+        .goals h2 {
+            font-size: 9vw;
+        }
+    
+        .goals-card h3 {
+            font-size: 6vw;
+            padding: 4vw;
+        }
+    
+        .goals-card p {
+            font-size: 3.5vw;
+            padding: 3vw;
+        }
+
+        .contact-body {
+            width: 100%;
+            margin: 15vw 4vw;
+        }
+    
+        .form-info h2 {
+            font-size: 10vw;
+            text-shadow: 0 0;
+        }
+
+        .message-submit {
+            height: 50vw;
+        }
+    
+        .edit-contact {
+            font-size: 4vw;
+            padding: 2vw;
+        }
+    
+        #submit {
+            font-size: 4vw;
+            padding: 3vw;
+        }
+
+        .page-foot {
+            width: 100%;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            margin: 10vw 0;
+            gap: 4vw;
+        }
+
+        .footer-text {
+            grid-column: span 2;
+        }
+
+        .footer-text h2 {
+            font-size: 9vw;
+            padding-bottom: 4vw;
+        }
+
+        .footer-text p {
+            font-size: 4vw;
+        }
+
+        .foot-elements h3 {
+            font-size: 5vw;
+            margin-bottom: 4vw;
+        }
+
+        .foot-elements {
+            gap: 3vw;
+        }
+
+        .foot-elements a {
+            font-size: 3.5vw;
+        }
+    
+        .copyright,
+        .language {
+            font-size: 3vw;
+        }
+
+        .about-me {
+            text-shadow: 0 0;
+        }
+}
